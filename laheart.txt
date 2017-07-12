@@ -1,0 +1,62 @@
+NAME:  L.A. HEART DATA (LAHEART.DAT)
+KEYWORDS:  Multiple Regression
+SIZE:  200 Observations, 18 Variables
+
+SOURCE: These data appear and are utilized in "Statistical Analysis:  A
+	Computer Oriented Approach" by A.A. Afifi and S.P. Azen.
+
+
+DESCRIPTIVE ABSRACT:
+
+These data are a subset of the data from an epidemiological
+heart disease study on Los Angeles County employees.
+
+
+LIST OF VARIABLES:
+
+Var		Description		Units	Scale	Comments
+------------------------------------------------------------------------------
+ID		ID			none	nominal	Patients numbered sequentially
+AGE_50		Age in 1950		yr	ratio	Age at last birthday (in 1950)
+MD_50		Examining M.D.(1950)	none	nominal	Coded from 1-4
+SBP_50		Systolic BP (1950)	mm Hg	ratio	Recorded to nearest integer
+DBP_50 		Diastolic BP (1950)	mm Hg 	ratio	Recorded to nearest integer
+HT_50		Height in 1950		in	ratio	Recorded to nearest inch
+WT_50		Weight in 1950		lb	ratio	Recorded to nearest pound
+CHOL_50		Serum cholesterol(1950)	mg%	ratio	Recorded to nearest integer
+SES		Socio-economic status	none	Ordinal	1=high,...,5=low
+CL_STATUS	Clinical status		none	Nominal	0=other heart disease(hd)
+						1=Coronary hd
+						2=Coronary and hypertensive hd
+						3=Hypertensive hd
+						4=Hypertensive and rheumatic hd
+						5=Rheumatic hd
+						6=Possible/potential hd
+						7=Hypertension wout/hd
+						8=Normal
+MD_62		Examining MD (1962)	none	nominal	Coded from 1-4
+SBP_62		Systolic BP (1962)	mm Hg	ratio	Recorded to nearest integer
+DBP_62		Diastolic BP (1962)	mm Hg	ratio	Recorded to nearest integer
+CHOL_62		Serum cholesterol(1962)	mg%	ratio	Recorded to nearest integer
+WT_62		Weight (1962)		lb	ratio	Recorded to nearest pound
+IHD_DX		Ischemic hd diagnosis	none	nominal	0=Not known
+						1-3=Myocardial infarction
+						4-7=Angina pectoris
+						8-9=Other
+DEATH_YR	Year of death		none	interval 0=Not Dead as of 1968
+						 Otherwise year of death 
+DEATH		Death			none	nominal	0=Alive
+						1=Dead
+----------------------------------------------------------------------------
+
+FORMAT:  (17F4.0).
+
+
+PEDAGOGICAL NOTES:  These data have been used to fit a multiple regression
+model.
+
+
+REFERENCES:
+1.  Statistical Analysis:  A Computer Oriented Approach, 2nd ed. (1979).
+Academic Press, New York.
+
